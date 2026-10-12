@@ -2,7 +2,7 @@
 IaC Course work
 
 ## Just a few notes
-	```
+```
 {
   "firstName": "Alicia",
   "lastName": "Garcia",
@@ -11,4 +11,8 @@ IaC Course work
 ```
 
 ### Nothing special to report
-That is so funny! :joy:
+- [x] Create Github account
+- [ ] Ensure you use your L as account name
+- [ ] Link to ATU email address
+- [ ] Create new Repository- Iac(private)
+- [ ] Invit John
