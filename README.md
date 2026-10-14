@@ -1,7 +1,7 @@
 # IaC
 IaC Course work
 
-## Just a few notes
+## Who Maintains this project
 ```
 {
   "firstName": "Alicia",
@@ -10,9 +10,11 @@ IaC Course work
 }
 ```
 
-### Nothing special to report
+### Objectives of this project
 - [x] Create Github account
 - [ ] Ensure you use your L as account name
 - [ ] Link to ATU email address
 - [ ] Create new Repository- Iac(private)
-- [ ] Invit John
+- [ ] Add a readme
+- [ ] Add a gitignore for Python Files
+- [ ] Invite John
