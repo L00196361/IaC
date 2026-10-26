@@ -44,7 +44,7 @@ mkdir %BACKUPDIR%"
 echo Copy all files from Data folder
 copy "Data\*.*" "%BACKUPDIR%"
 
-:: If an error occurs, inform user and drop to End of file otherwise  set read only
+:: If an error occurs, inform user otherwise set read only
 if errorlevel 1 (
     echo Backup Failed.
 ) else (
