@@ -1,0 +1,11 @@
+### Objectives of Assignment 1
+- [x] Create a folder called /DOS in your repo.
+- [x] Carry out all the exercises in my DOS notes and save the files in a directory called /DOS/BatchFiles. Use appropriate file names
+- [x] When you test the batch files, save a screenshot of the tests in /DOS/Tests. Use appropriate file names.
+- [x] You have important information in a folder called /DOS/Data (create some dummy files).
+- [x] You will save backups in a folder called /DOS/Backups.
+- [x] Create a script called /DOS/Bacup.bat.
+- [x] When your backup script is run, it will create a folder with the date in the format DDMMMYY and copy all the files in /DOS/Data to that folder.
+- [x] Set the readonly flag on all the files which have been backed up..
+- [x] Your script should be documented.
+- [ ] Create a short report explaining this work called /DOS/DOSReport using the template provided. All reports to be submitted as PDF.
