@@ -8,4 +8,4 @@
 - [x] When your backup script is run, it will create a folder with the date in the format DDMMMYY and copy all the files in /DOS/Data to that folder.
 - [x] Set the readonly flag on all the files which have been backed up..
 - [x] Your script should be documented.
-- [ ] Create a short report explaining this work called /DOS/DOSReport using the template provided. All reports to be submitted as PDF.
+- [X ] Create a short report explaining this work called /DOS/DOSReport using the template provided. All reports to be submitted as PDF.
