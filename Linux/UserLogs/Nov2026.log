@@ -1,0 +1,12 @@
+alicia   tty2         tty2             Sat Nov 14 14:00    gone - no logout
+alicia   seat0        login screen     Sat Nov 14 14:00    gone - no logout
+student  tty2         tty2             Sat Nov 14 13:50 - 14:00  (00:09)
+student  seat0        login screen     Sat Nov 14 13:50 - 14:00  (00:09)
+student  tty2         tty2             Sat Nov 14 13:03 - 13:49  (00:46)
+student  seat0        login screen     Sat Nov 14 13:03 - 13:50  (00:47)
+reboot   system boot  7.0.0-42-generic Sat Nov 14 12:58   still running
+student  tty2         tty2             Wed Nov  4 17:20 - crash (9+19:37)
+student  seat0        login screen     Wed Nov  4 17:20 - crash (9+19:37)
+reboot   system boot  7.0.0-42-generic Wed Nov  4 17:19   still running
+
+wtmp begins Wed Nov  4 17:19:59 2026
