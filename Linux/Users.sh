@@ -30,17 +30,29 @@ then
     exit 1
 fi
 
-# Inform user
-echo "Generating login/logout report..."
+# Generate report
+ if ! last > "$REPORT"
+ then
+    echo "ERROR: Failed to generate report."
+    exit 1
+ fi
 
-# Generate the report
-last > "$REPORT"
+# Verify file exists
+if [ ! -f "$REPORT" ]
+then
+    echo "ERROR: Report file not found."
+    exit 1
+fi
 
-# Make report readable by all but not writable
-chmod 444 "$REPORT"
+# Apply permissions
+if ! chmod 444 "$REPORT"
+then
+    echo "ERROR: Failed to set permissions."
+    exit 1
+fi
 
-# Inform user of success
 echo "Report created successfully:"
 echo "$REPORT"
 
 exit 0
+
